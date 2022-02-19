@@ -1,0 +1,35 @@
+
+
+*
+{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+
+}
+.bg
+{
+    background: url('../Blurry Loading/im.jpg') no-repeat center center/cover;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    filter: blur(0px);
+}
+.loading-text
+{
+    font-size: 50px;
+    color: aliceblue;
+    
+
+}
