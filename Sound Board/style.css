@@ -1,0 +1,19 @@
+
+*
+{
+   box-sizing: border-box;
+
+}
+body
+{
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    background-color: purple;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+
+}
