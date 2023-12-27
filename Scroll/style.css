@@ -1,0 +1,29 @@
+*
+{
+    box-sizing: border-box;
+}
+
+.container
+{
+    display: flex;
+    overflow-x: scroll;
+    padding: 24px;
+    width: 300px;
+    scroll-snap-type: mandatory;
+    scroll-padding: 24px;
+    border-radius: 8px;
+    gap: 12px;
+    cursor: pointer;
+    align-items: center;
+    
+}
+
+.container .item
+{
+   
+    background: linear-gradient(to top,violet, yellow) right;
+    flex: 0 0 100%;
+    padding: 24px;
+    border-radius: 8px;
+    scroll-snap-align: start;
+}
